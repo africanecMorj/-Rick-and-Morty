@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricky and Morty</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js' integrity='sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==' crossorigin='anonymous'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.js' integrity='sha512-luUnkeG+uabiT2pZdi5ME5uADvq+FpDs2fK5V0nVXrHCND9F077fKaE9W//oJvGnWSmwQmCau63A6s3um1NZmg==' crossorigin='anonymous'></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />  
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.css' integrity='sha512-8BU3emz11z9iF75b10oPjjpamM4Mz23yQFQymbtwyPN3mNWHxpgeqyrYnkIUP6A8KyAj5k2p3MiYLtYqew7gIw==' crossorigin='anonymous'/>
+</head>
+<body>
+    
+      <div class="popup2" id="popup2">  
+        
+        
+    </div>
+    <img class="pickle" src="./434261236d01c367357018760f5a80a3-removebg-preview.png" alt="">    
+    
+    <div class="curtain"></div>
+    
+    <div class="wrap">
+        <div class="wrap2" id="wrapChar"> 
+        <!-- <img class="backImg" src="./PngItem_5195253.png" alt="">  -->
+
+            <header>
+                <ul>
+                    <li><a href="#" class="charPage">Characters</a></li>
+                    <li><a href="#" class="locPage">Location</a></li>
+                    <li><a href="#" class="episodePage">Episodes</a></li>
+                    <li><a href="#" class="episodesList">Episodes list</a></li>
+                </ul>
+            </header>
+            <div class="inputGroup">
+                <input class="input" type="text" id="filter"  value="">
+                <select class="label" id="parameters">
+                    <option class="lab" value="name">name</option>
+                    <option class="lab" value="species">species</option>
+                    <option class="lab" value="status">status</option>
+                    <option class="lab" value="gender">gender</option>
+                    <option class="lab" value="type">type</option>
+    
+                </select>
+            </div>
+            
+            <div class="characterContainer"></div>
+
+            <div class="controlContainer">
+                <button id="prev">Prev</button>
+                <div class="currentPage" id="currentPage1">1</div>
+                <button id="next">Next</button>
+            </div>
+        </div>
+        
+        <div class="wrap2" id="wrapSer">
+            <header>
+                <ul>
+                    <li><a href="#" class="charPage">Characters</a></li>
+                    <li><a href="#" class="locPage">Location</a></li>
+                    <li><a href="#" class="episodePage">Episodes</a></li>
+                    <li><a href="#" class="episodesList">Episodes list</a></li>
+                </ul>
+            </header>
+            <input class="input" type="text" id="filter2" value="">
+            <select class="label" id="parameters2">
+                <option class="lab" value="name">name</option>
+                <option class="lab" value="episode">episode</option>
+
+            </select>
+            <div class="episodesContainer"></div>
+
+            <div class="controlContainer">
+                <button id="prev2">Prev</button>
+                <div class="currentPage" id="currentPage2">1</div>
+                <button id="next2">Next</button>
+            </div>
+        </div>
+
+        <div class="wrap2" id="wrapLoc">
+            <header>
+                <ul>
+                    <li><a href="#" class="charPage">Characters</a></li>
+                    <li><a href="#" class="locPage">Location</a></li>
+                    <li><a href="#" class="episodePage">Episodes</a></li>
+                    <li><a href="#" class="episodesList">Episodes list</a></li>
+                </ul>
+            </header>
+            <input class="input" type="text" id="filter3" value="">
+            <select class="label" id="parameters3">
+                <option class="lab" value="name">name</option>
+                <option class="lab" value="type">type</option>
+                <option class="lab" value="dimension">dimension</option>
+
+            </select>
+            <div class="locationContainer"></div>
+
+            <div class="controlContainer">
+                <button id="prev3">Prev</button>
+                <div class="currentPage" id="currentPage3">1</div>
+                <button id="next3">Next</button>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
