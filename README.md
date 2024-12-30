@@ -8,5 +8,5 @@ Technology: js, html, css, Rick and Morty api.
 
 https://funny-daffodil-9d54ad.netlify.app/
 
-![Image alt](https://github.com/africanecMorj/-horrorscope-Rick-and-Morty/blob/main/Снимок%20экрана%20(183).png)
+![Image alt](https://i.postimg.cc/15vPK3bh/183.png)
 
